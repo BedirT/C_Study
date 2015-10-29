@@ -28,9 +28,9 @@ int main() {
         }
     }else {
         fine = 10000;
-    } 
+    }
     
     printf("%d", fine);
-        
+    
     return 0;
 }
