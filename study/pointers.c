@@ -130,6 +130,17 @@ int main () {
     
     
     
+    ///////////////////////
+    
+    
+    
+    int a = 3;
+    
+    int * ptr = &a;
+    printf("%d\n",*ptr);
+    
+    
+    
     return 0;
 }
 
