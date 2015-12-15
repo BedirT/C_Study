@@ -32,7 +32,7 @@ int main ()
 		bFact = bSum;
 	}
 
-	printf ("bFact=%d\n",bFact);
+	//printf ("bFact=%d\n",bFact);
 	for (i=bFact-1; i>=0; i--)
 		printf ("%d", fact[i]);
 	printf ("\n");
