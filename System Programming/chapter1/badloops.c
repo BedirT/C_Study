@@ -7,25 +7,29 @@
 	** at a time, to observe what the code is doing. (pg 29) */
 
 #include <stdio.h>
+int main() {
 
-main()
-{
-char word[80];
-int i,j;
+    char word[80];
+    int i,j;
 
-printf("Enter any word: ");
-scanf("%s",word);
-i=0;
-while (word[i] != '\0')
-  {
-  if (word[i] == word[i+1])
-    {
-    j=1;
-    while (word[i] == word[i+j])
-      j++;
-    printf("%d consecutive %c\n",j,word[i]);
+
+    printf("Enter any word: ");
+    scanf("%s",word);
+
+    i=0;
+
+    while (word[i] != '\0'){
+        
+        if (word[i] == word[i+1]){
+            j=1;
+            while (word[i] == word[i+j])
+                j++;
+            printf("%d consecutive %c\n",j,word[i]);
+            i+=j-1;
+        }
+        i++;
     }
-  i++;
-  }
+
+    return 0;
 }
 
