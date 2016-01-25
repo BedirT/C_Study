@@ -4,16 +4,16 @@
 
 #include <stdio.h>
 
-main()
-{
-int x,y;
+int main() {
 
-y=0;
-for (x=0; x<10; x++)
-  {
-  y=y+x;
-  if (y > 10)
-    x--;
-  }
+    int x,y;
+
+    y=0;
+    
+    for (x=0; x<10; x++){
+        y=y+x;
+        if (y > 10)
+            x--;
+    }
 }
 
