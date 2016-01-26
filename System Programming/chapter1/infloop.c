@@ -11,6 +11,8 @@ int main() {
     y=0;
     
     for (x=0; x<10; x++){
+        printf("Still going\n");
+        
         y=y+x;
         if (y > 10)
             x--;
