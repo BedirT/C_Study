@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char x,y;
 
@@ -13,4 +13,6 @@ y=6;
 x=x&y;
 y=x|16;
 printf("%d %d\n",x,y);
+
+return 0;
 }
