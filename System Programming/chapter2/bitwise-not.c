@@ -3,11 +3,15 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 unsigned char a;
 
 a=17;
 a=~a;
 printf("%d\n",a);
+
+
+return 0;
+
 }
