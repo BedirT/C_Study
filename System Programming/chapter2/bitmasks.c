@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char a;
 int i;
@@ -17,4 +17,6 @@ printf("%d\n",a);
 for (i=7; i>=0; i--)
   printf("%d ",(a&(1<<i)) >> i); /* read i'th bit */
 printf("\n");
+
+return 0;
 }

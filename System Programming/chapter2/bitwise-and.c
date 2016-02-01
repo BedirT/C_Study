@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 unsigned char a,b;
 
@@ -11,4 +11,5 @@ a=17;
 b=22;
 a=a & b;
 printf("%d\n",a);
+return 0;
 }
