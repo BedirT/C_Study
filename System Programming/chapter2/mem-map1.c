@@ -3,11 +3,13 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char a,b,c;
 
 a=7;
 b=-13;
 c=0;
+
+return 0;
 }
