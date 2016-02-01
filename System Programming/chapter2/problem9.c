@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 unsigned char x,y,z;
 
@@ -14,5 +14,7 @@ x=x|64;
 y=y&3;
 z=~z;
 printf("%d %d %d\n",x,y,z);
+
+    return 0;
 }
 

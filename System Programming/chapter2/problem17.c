@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 int i;
 double d;
@@ -13,5 +13,7 @@ s[0]='f'; s[1]='r'; s[2]='o'; s[3]='g';
 d=0.0;
 for (i=0; i<4; i++)
 d=d+(double)(s[i]-'a');
+
+    return 0;
 }
 

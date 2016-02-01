@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char a;
 short int b;
@@ -13,4 +13,6 @@ char c;
 a=6;
 b=13;
 c='6';
+
+    return 0;
 }

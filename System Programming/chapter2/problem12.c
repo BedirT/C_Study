@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 int i,j;
 
@@ -14,5 +14,7 @@ for (i=1; i<100; i=i<<1)
     j=j | i;
   printf("%d %d\n",i,j);
   }
+
+    return 0;
 }
 

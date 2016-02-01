@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char i;
 double d;
@@ -15,5 +15,7 @@ for (i='z'; i>='w'; i--)
     if (d-1.3 > 0)
       t++;
 printf("%d\n",t);
+
+    return 0;
 }
 

@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 char a;
 int b;
@@ -14,4 +14,6 @@ a=7;
 b=-13;
 c=0.1;
 d=42.5;
+
+    return 0;
 }

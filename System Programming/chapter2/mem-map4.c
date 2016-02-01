@@ -4,11 +4,13 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 int i,n;
 
 n=0;
 for (i=1; i<=4; i++)
   n=n+i;
+
+    return 0;
 }

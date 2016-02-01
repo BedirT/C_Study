@@ -3,11 +3,13 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
-int x=7;
+    int x=7;
 
-x=(x|16)<<1;
-printf("%d\n",x);
+    x=(x|16)<<1;
+    printf("%d\n",x);
+
+    return 0;
 }
 

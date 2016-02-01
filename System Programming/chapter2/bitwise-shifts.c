@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-main()
+int main()
 {
 unsigned char a,b;
 
@@ -13,4 +13,6 @@ a=a << 2;
 b=64;
 b=b >> 3;
 printf("%d %d\n",a,b);
+
+    return 0;
 }
