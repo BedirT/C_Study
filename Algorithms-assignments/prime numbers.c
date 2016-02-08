@@ -1,0 +1,1 @@
+// Sieve of Eurathsphen - Finding Prime numbers#include<stdio.h>#include<math.h>int main () {    int was[30] = {0};    int i , j;        int  n = 5;        for (i=0;i<=sqrt(n);i++) {        if (was[i]==0)            for(j=i*i ; j<=n ; j+=i)                was[j]=1;    }    for (i=0;i<n;i++) {        printf("%d. one = %d",i,was[i]);    }        }
