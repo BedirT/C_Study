@@ -13,13 +13,10 @@
 #include<stdio.h>
 
 int main () {
-    int count, i;
-    scanf("%d",&count);
+    int n, i;
+    scanf("%d",&n);
     
-    for (i=0; i<count; i++) {
-        
-        
-        
+    for (i=0; i<n; i++) {
         
     }
     
