@@ -1,5 +1,5 @@
 
-	/* Demonstrate stat(). (pgs 156-158) */
+/* Demonstrate stat(). (pgs 156-158) */
 
 #include <stdio.h>
 #include <sys/stat.h> /* needed for stat() function */
