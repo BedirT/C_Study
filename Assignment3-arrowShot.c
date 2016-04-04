@@ -5,7 +5,6 @@
 #include <ctype.h>
 #include <time.h>
 
-
 int counter = 0,wannaPlay=1;
 double chance ();                   // I am calling all
 double shoot (int distance);        // my functions in here
@@ -18,14 +17,14 @@ int main () {
     
     while (wannaPlay != 0){ // This loop is for us to keep play or not.
     
-    srand(time(NULL)); /* We are seeding our random . This will help us to change
+        srand(time(NULL)); /* We are seeding our random . This will help us to change
                         our random value everytime we run it.
                         */
-    play(); // Calling play function.
+        play(); // Calling play function.
     
-    printf("\nEnter 0 to exit, any other value to play again: ");
-    scanf("%d",&wannaPlay); // Keep looping or not ?
-    printf("\n");
+        printf("\nEnter 0 to exit, any other value to play again: ");
+        scanf("%d",&wannaPlay); // Keep looping or not ?
+        printf("\n");
     
     }
     
@@ -33,13 +32,9 @@ int main () {
 
 double chance () {
     
-    int myChance;
-    
-    myChance = (rand()%100) ; // assigning random number to myChance variable
-    
-    double chance = (double)myChance/100; // making our chance between 0.0 to 1.0
-    
-    return chance; // returning to chance
+    int myChance = (rand()%100); // assigning random number to myChance variable
+    return (double)myChance/100; // making our chance between 0.0 to 1.0
+
 }
 
 double shoot (int distance) {
